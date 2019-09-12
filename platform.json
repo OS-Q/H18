@@ -1,0 +1,26 @@
+{
+  "name": "H18",
+  "title": "H18",
+  "description": "Linux  64运行平台",
+  "url": "http://platformio.org/platforms/linux_x86_64",
+  "homepage": "https://github.com/OS-Q/H18",
+  "license": " ",
+  "engines": {
+    "platformio": "<5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OS-Q/H18.git"
+  },
+  "version": "1.0.0",
+  "packageRepositories": [
+    "https://dl.bintray.com/platformio/dl-packages/manifest.json",
+    "http://dl.platformio.org/packages/manifest.json"
+  ],
+  "packages": {
+    "toolchain-gcclinux64": {
+      "type": "toolchain",
+      "version": "~1.40801.0"
+    }
+  }
+}
