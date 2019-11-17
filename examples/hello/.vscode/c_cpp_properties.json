@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/qitas/osq/PIO/platform-linux_x86_64/examples/hello-world/include",
+                "/home/qitas/osq/PIO/platform-linux_x86_64/examples/hello-world/src",
+                "/home/qitas/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/qitas/osq/PIO/platform-linux_x86_64/examples/hello-world/include",
+                    "/home/qitas/osq/PIO/platform-linux_x86_64/examples/hello-world/src",
+                    "/home/qitas/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=40100",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "\"/usr/bin/gcc\" "
+        }
+    ],
+    "version": 4
+}
