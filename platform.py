@@ -1,6 +1,6 @@
 from platformio.managers.platform import PlatformBase
 from platformio.util import get_systype
-class P24Platform(PlatformBase):
+class P92Platform(PlatformBase):
 
     @property
     def packages(self):

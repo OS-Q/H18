@@ -1,6 +1,9 @@
-*.db
-*.yml
-__pycache__/
 *.pyc
-.pio/
-.vscode/
+*__py*/
+*.pio/
+*.vscode/
+*.rst
+*.rel
+*.sym
+*.lst
+*.asm
