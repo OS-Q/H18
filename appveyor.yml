@@ -6,7 +6,7 @@ environment:
 
 install:
   - cmd: git submodule update --init --recursive
-  - cmd: SET PATH=C:\Python37\Scripts;%PATH%;C:\MinGW\bin
+  - cmd: python -m pip install --upgrade pip
   - cmd: pip3 install -U https://github.com/OS-Q/S03/archive/master.zip
   - cmd: qio platform install file://.
 
