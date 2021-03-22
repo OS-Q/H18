@@ -1,21 +1,21 @@
 build: off
 clone_depth: 1
 environment:
-
   matrix:
-    - PLATFORMIO_PROJECT_DIR: "examples/hello"
+    - PYTHON: "C:\\Python36"
+    - PYTHON: "C:\\Python37"
+    - PYTHON: "C:\\Python38"
+    - PYTHON: "C:\\Python39"
 
 platform:
   - x86
   - x64
-  - Any CPU
 
 install:
   - cmd: git submodule update --init --recursive
-  - cmd: SET PATH=C:\Python37\Scripts;%PATH%;C:\MinGW\bin
   - cmd: python -m pip install --upgrade pip
   - cmd: pip install -U https://github.com/OS-Q/S03/archive/master.zip
   - cmd: qio platform install file://.
 
 test_script:
-  - cmd: qio run -d %PLATFORMIO_PROJECT_DIR%
+  - cmd: qio run -d "examples/hello"
