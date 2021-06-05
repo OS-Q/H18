@@ -1,12 +1,12 @@
 {
-  "name": "P92",
-  "title": "Platform P92",
+  "name": "P911",
+  "title": "Platform P911",
   "description": "Linux x64平台",
-  "homepage": "http://www.OS-Q.com/P92",
+  "homepage": "http://www.OS-Q.com/P911",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/OS-Q/P92.git"
+    "url": "https://github.com/OS-Q/P911.git"
   },
   "keywords": [
     "OS-Q",
