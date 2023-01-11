@@ -6,9 +6,9 @@
     "Core": {
         "CoreNum": 3,
         "Core":"Cortex-M4",
-        "Fmax":400,
-        "DMIPS": 900,
-        "CoreMark": 2500
+        "Fmax":160,
+        "DMIPS": 200,
+        "CoreMark": 500
     },
     "manufacturer": {
         "vendor":"xradiotech",
