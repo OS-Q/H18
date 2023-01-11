@@ -1,13 +1,29 @@
-﻿# [P911](https://github.com/OS-Q/P911)
+﻿# [XR809](https://doc.soc.xin/XR809)
 
-[![sites](http://182.61.61.133/link/resources/OSQ.png)](http://www.OS-Q.com)
+* [xradiotech](http://www.xradiotech.com/): [Cortex-M4F](https://github.com/SoCXin/Cortex)
+* [L3R3](https://github.com/SoCXin/Level): 160 MHz
 
-[![Build Status](https://github.com/OS-Q/P911/workflows/CI/badge.svg)](https://github.com/OS-Q/P911/actions/workflows/CI.yml)
-[![Build Status](https://cloud.drone.io/api/badges/OS-Q/P911/status.svg)](https://cloud.drone.io/OS-Q/P911)
-[![Build Status](https://circleci.com/gh/OS-Q/P911.svg?style=svg)](https://circleci.com/gh/OS-Q/P911)
+### [简介](https://www.espressif.com/en/news/XR809)
 
-### [简介](https://github.com/OS-Q/P911/wiki)
+[XR809](https://github.com/XradioTech/XR809SDK) 
 
-[P911](https://github.com/OS-Q/P911) 用于构建 Linux x64 应用
+[![sites](docs/XR809.png)](https://github.com/XradioTech/XR809SDK)
 
-#### [源圈OS-Q: 起点决定收益](http://www.OS-Q.com)
+#### 关键参数
+
+* 160 MHz Cortex-M4F
+* 384KB SRAM和2MB Flash ROM
+
+
+### [资源收录](https://github.com/SoCXin)
+
+* [参考资源](src/)
+* [参考文档](docs/)
+* [参考工程](project/)
+
+### [选型建议](https://github.com/SoCXin/XR809)
+
+[XR809](https://github.com/SoCXin/XR809) 
+
+
+### [www.SoC.xin](http://www.SoC.Xin)

@@ -1,0 +1,35 @@
+{
+    "type":"SoC",
+    "name":"XR809",
+    "title": "xradiotech XR809 SoC",
+    "description":"xradiotech Cortex-M4 Wi-Fi/BLE SoC",
+    "Core": {
+        "CoreNum": 3,
+        "Core":"Cortex-M4",
+        "Fmax":400,
+        "DMIPS": 900,
+        "CoreMark": 2500
+    },
+    "manufacturer": {
+        "vendor":"xradiotech",
+        "homepage":"https://www.xradiotech.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/XR809.git"
+    },
+    "version":"1.0.0",
+    "series":["XR809"],
+    "package":["QFN40"],
+    "peripheral": ["Wi-Fi","BLE","SDIO","UART","SPI","IIC"],
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M4",
+        "xradiotech",
+        "Wi-Fi","BLE","ADC","I2C","RTC","SPI","UART",
+        "3.6V","1.8V"
+    ]
+}
